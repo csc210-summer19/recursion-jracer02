@@ -119,7 +119,6 @@ public class LinkedList<E extends Comparable<E>> {
 	// Complete method removeAll(E el) so all elements that
 	// equals el are removed from this LinkedList<E>.
 	public void removeAll(E el) {
-
 		removeAll(el, first);
 	}
 
@@ -143,6 +142,7 @@ public class LinkedList<E extends Comparable<E>> {
 	public void duplicateAll(E el) {
 		// This public method requires a call to a private helper method
 		// with first as an argument. It must be recursive, no loop allowed.
+
 	}
 
 }
